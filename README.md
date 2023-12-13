@@ -1,5 +1,7 @@
 DevOps Project
+
 This repository contains various java code examples
-##IOndex
+
+Index
 1. Calculator
 2. TotalLegs
