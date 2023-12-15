@@ -1,0 +1,22 @@
+## Linux command to find a file ending with Test.java and grep patterns @Test
+
+$ find ~ -name "*Test.java" -exec grep -Hi @Test {} \;
+
+Break down:
+find - Used to search for a file
+
+~ - It's users home DIR. So, this command searching from this DIR towards it child DIRs.
+
+-name "*Test.java" - -name option specifies a condition to search a file. It looks for file that maches the pattern "Test.java" where * wildcard matches any sequence of characters coming before Test.java. So, this part of the command is finding files with name ending in "Test.java".
+
+-exec - it's an option of find command that allows executing a command on each file found.
+
+grep - This command is used to search for patterns in files.
+
+-Hi - it's an option of grep. 'H' displays files name. and 'i' makes the search case sensitive.
+
+@Test - This is the pattern searching for.
+
+{} - represents the current file is being processed by 'find'.
+
+\; - Indicates the end of the -exec command.
