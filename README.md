@@ -1,4 +1,4 @@
-## DevOps Peoject code examples
+## DevOps Project code examples
 
 This repository contains various java code examples
 
@@ -6,7 +6,7 @@ This repository contains various java code examples
 1. Calculator
 2. TotalLegs
 3. FindBiggestNumber
-4. find_file_and_patters
+4. find_file_and_patterns
 
 ## 1. Calculator
 This program calculates the given two numbers with one of the given operators (+, -, *, /)
