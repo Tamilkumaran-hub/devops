@@ -15,6 +15,8 @@ public class FindBiggestNumber {
 //        arrayList.add(287);
 //        // Use collection.max to fetch largest number and print
 //        System.out.println("Largest number: "+ Collections.max(arrayList));
+
+        // Using Iteration method
         int arr[] = {318, 299, 412, 621, 536, 178, 287};
         int max = arr[0];
         for (int i=0; i<arr.length; i++){
