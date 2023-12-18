@@ -18,4 +18,4 @@ This program calculates total number of legs of given chickens, goats, and cows.
 This program finds the biggest number in the given array list.
 
 ## 4. find_file_and_patterns
-This file contain linux command to find a file ending in "Test.java" and patterns "@Test".
+This file contain linux command to find a file ending in "Test.java" and patterns "@Test"
