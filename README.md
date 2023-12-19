@@ -7,6 +7,7 @@ This repository contains various java code examples
 2. TotalLegs
 3. FindBiggestNumber
 4. find_file_and_patterns
+5. Dockerfile
 
 ## 1. Calculator
 This program calculates the given two numbers with one of the given operators (+, -, *, /)
@@ -19,3 +20,6 @@ This program finds the biggest number in the given array list.
 
 ## 4. find_file_and_patterns
 This file contain linux command to find a file ending in "Test.java" and patterns "@Test"
+
+## 5. Dockerfile
+This Dockerfile is used to created jenkins container image. jenkins/jenkins:latest is used as base image in this Dockerfile.
