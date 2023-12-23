@@ -8,6 +8,7 @@ This repository contains various java code examples
 3. FindBiggestNumber
 4. find_file_and_patterns
 5. Dockerfile
+6. QueueArraylist
 
 ## 1. Calculator
 This program calculates the given two numbers with one of the given operators (+, -, *, /)
@@ -23,3 +24,6 @@ This file contain linux command to find a file ending in "Test.java" and pattern
 
 ## 5. Dockerfile
 This Dockerfile is used to created jenkins container image. jenkins/jenkins:latest is used as base image in this Dockerfile.
+
+## 6. QueueArraylist
+This program contains Java Queue created using ArrayList. Java Queue datastructure represents elements with FIFO order.
